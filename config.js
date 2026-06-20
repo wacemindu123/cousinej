@@ -39,7 +39,7 @@ const config = {
   downloadFilename: process.env.DOWNLOAD_FILENAME || 'EJ-Green-Resume-Template.pdf',
 
   // Misc
-  instagramUrl: process.env.INSTAGRAM_URL || 'https://instagram.com/ej',
+  instagramUrl: process.env.INSTAGRAM_URL || 'https://instagram.com/cousin.ej',
   cookieSecret: process.env.COOKIE_SECRET || 'dev-insecure-secret-change-me',
 
   // Optional Vercel Postgres (activates automatically once POSTGRES_URL exists)

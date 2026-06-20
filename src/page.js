@@ -264,7 +264,7 @@ function renderPage(state, config) {
       <span style="font-weight:700;font-size:14px;letter-spacing:.3px;">EJ Green</span>
     </div>
     <a href="${esc(config.instagramUrl)}" target="_blank" rel="noopener" style="text-decoration:none;color:#5a5750;font-size:13px;font-weight:600;display:flex;align-items:center;gap:7px;">
-      <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#146b54;"></span>@ej on Instagram
+      <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#146b54;"></span>@cousin.ej on Instagram
     </a>
   </div>
 
@@ -328,7 +328,7 @@ function renderPage(state, config) {
 
   <!-- footer -->
   <div style="max-width:760px;margin:0 auto;padding:30px 28px 50px;text-align:center;">
-    <div style="font-size:12.5px;color:#8a877e;">© EJ Green · <a href="${esc(config.instagramUrl)}" target="_blank" rel="noopener" style="color:#146b54;text-decoration:none;">@ej on Instagram</a></div>
+    <div style="font-size:12.5px;color:#8a877e;">© EJ Green · <a href="${esc(config.instagramUrl)}" target="_blank" rel="noopener" style="color:#146b54;text-decoration:none;">@cousin.ej on Instagram</a></div>
   </div>
 
 </div>
