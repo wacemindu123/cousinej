@@ -40,6 +40,7 @@ npm start                  # http://localhost:3000
 | `TEMPLATE_PDF_PATH` | Path to the downloadable PDF. Default `./template/resume-template.pdf`. |
 | `DOWNLOAD_FILENAME` | Filename the browser saves. |
 | `INSTAGRAM_URL` | Header/footer link. |
+| `CLARITY_PROJECT_ID` | Microsoft Clarity analytics project ID. Blank = disabled. |
 
 ## How payment + unlock works (server-side trust)
 

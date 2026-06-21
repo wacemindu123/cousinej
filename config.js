@@ -40,6 +40,7 @@ const config = {
 
   // Misc
   instagramUrl: process.env.INSTAGRAM_URL || 'https://instagram.com/cousin.ej',
+  clarityProjectId: process.env.CLARITY_PROJECT_ID || '',
   cookieSecret: process.env.COOKIE_SECRET || 'dev-insecure-secret-change-me',
 
   // Optional Vercel Postgres (activates automatically once POSTGRES_URL exists)
