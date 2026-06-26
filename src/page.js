@@ -300,21 +300,20 @@ ${clarity}
 
         <div style="font-size:11.5px;font-weight:700;letter-spacing:1.6px;border-bottom:1.5px solid #1a1a18;padding-bottom:5px;margin:26px 0 11px;">PROFESSIONAL EXPERIENCE</div>
 
-        <div style="display:flex;justify-content:space-between;align-items:baseline;">
-          <span style="font-weight:700;color:#11362b;">[ Company Name ]</span><span style="font-size:12px;color:#7a776f;">[ City, State ]</span>
-        </div>
-        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:1px;">
-          <span style="font-style:italic;color:#56534c;">[ Job Title ]</span><span style="font-size:12px;color:#7a776f;">[ MM/YYYY ] – [ MM/YYYY ]</span>
-        </div>
-        <ul style="margin:7px 0 0;padding-left:18px;color:#56534c;">
-          <li style="margin-bottom:6px;"><span style="color:#11362b;font-weight:600;">[ Action verb ]</span> a [ cadence ] quota of [ target ] using [ framework ], while hitting a [ key metric ]</li>
-          <li style="margin-bottom:6px;"><span style="color:#11362b;font-weight:600;">[ Action verb ]</span> [ volume, e.g. 100+ calls/day ] while managing a [ portfolio size ], driving a [ outcome ]</li>
-          <li style="margin-bottom:6px;">Partnered cross-functionally with [ teams ] to [ what you resolved ]</li>
-        </ul>
-
         <!-- LOCKED PART -->
         <div style="position:relative;">
           <div style="margin-top:6px;">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;">
+              <span style="font-weight:700;color:#11362b;">[ Company Name ]</span><span style="font-size:12px;color:#7a776f;">[ City, State ]</span>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:1px;">
+              <span style="font-style:italic;color:#56534c;">[ Job Title ]</span><span style="font-size:12px;color:#7a776f;">[ MM/YYYY ] – [ MM/YYYY ]</span>
+            </div>
+            <ul style="margin:7px 0 0;padding-left:18px;color:#56534c;">
+              <li style="margin-bottom:6px;"><span style="color:#11362b;font-weight:600;">[ Action verb ]</span> a [ cadence ] quota of [ target ] using [ framework ], while hitting a [ key metric ]</li>
+              <li style="margin-bottom:6px;"><span style="color:#11362b;font-weight:600;">[ Action verb ]</span> [ volume, e.g. 100+ calls/day ] while managing a [ portfolio size ], driving a [ outcome ]</li>
+              <li style="margin-bottom:6px;">Partnered cross-functionally with [ teams ] to [ what you resolved ]</li>
+            </ul>
             ${lockedResumeBody}
           </div>
           ${unlocked ? '' : lockOverlay(price)}
